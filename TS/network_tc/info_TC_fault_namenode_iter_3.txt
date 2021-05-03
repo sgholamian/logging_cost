@@ -1,0 +1,2 @@
+namenode starts here
+2021-04-09 07:51:46,374 INFO org.apache.hadoop.hdfs.server.namenode.FileJournalManager: Purging logs older than 395239

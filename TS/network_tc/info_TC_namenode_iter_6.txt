@@ -1,0 +1,26 @@
+namenode starts here
+2021-04-09 07:51:46,374 INFO org.apache.hadoop.hdfs.server.namenode.FileJournalManager: Purging logs older than 395239
+2021-04-09 08:51:46,539 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.210.11
+2021-04-09 08:51:46,539 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Rolling edit logs
+2021-04-09 08:51:46,539 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Ending log segment 1395241, 1395241
+2021-04-09 08:51:46,539 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 2 Total time for transactions(ms): 1 Number of transactions batched in Syncs: 0 Number of syncs: 2 SyncTimes(ms): 18 
+2021-04-09 08:51:46,944 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 2 Total time for transactions(ms): 1 Number of transactions batched in Syncs: 0 Number of syncs: 3 SyncTimes(ms): 423 
+2021-04-09 08:51:46,958 INFO org.apache.hadoop.hdfs.server.namenode.FileJournalManager: Finalizing edits file /hdd1/hdfs-name-storage2/current/edits_inprogress_0000000000001395241 -> /hdd1/hdfs-name-storage2/current/edits_0000000000001395241-0000000000001395242
+2021-04-09 08:51:46,990 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Starting log segment at 1395243
+2021-04-09 08:51:47,036 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Sending fileName: /hdd1/hdfs-name-storage2/current/edits_0000000000001395241-0000000000001395242, fileSize: 42. Sent total: 42 bytes. Size of last segment intended to send: -1 bytes.
+2021-04-09 08:51:47,084 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Combined time for fsimage download and fsync to all disks took 0.00s. The fsimage download took 0.00s at 50000.00 KB/s. Synchronous (fsync) write to disk of /hdd1/hdfs-name-storage2/current/fsimage.ckpt_0000000000001395242 took 0.00s.
+2021-04-09 08:51:47,084 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Downloaded file fsimage.ckpt_0000000000001395242 size 52008 bytes.
+2021-04-09 08:51:47,094 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Going to retain 2 images with txid >= 1395240
+2021-04-09 08:51:47,094 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Purging old image FSImageFile(file=/hdd1/hdfs-name-storage2/current/fsimage_0000000000001395238, cpktTxId=0000000000001395238)
+2021-04-09 08:51:47,101 INFO org.apache.hadoop.hdfs.server.namenode.FileJournalManager: Purging logs older than 395241
+datanode styx02 starts here
+2021-04-09 07:47:47,302 INFO org.apache.hadoop.hdfs.server.datanode.DirectoryScanner: BlockPool BP-315463650-127.0.1.1-1615769866380 Total blocks: 1041, missing metadata files:0, missing block files:0, missing blocks in memory:0, mismatched blocks:0
+datanode styx03 starts here
+2021-04-09 06:33:12,221 INFO org.apache.hadoop.hdfs.server.datanode.DirectoryScanner: BlockPool BP-315463650-127.0.1.1-1615769866380 Total blocks: 1041, missing metadata files:0, missing block files:0, missing blocks in memory:0, mismatched blocks:0
+datanode styx04 starts here
+2021-04-09 05:17:43,422 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-315463650-127.0.1.1-1615769866380 blk_1073943684_202918 file /hdd1/hdfs-data-storage2/current/BP-315463650-127.0.1.1-1615769866380/current/rbw/blk_1073943684
+2021-04-09 05:17:43,422 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-315463650-127.0.1.1-1615769866380 blk_1073943670_202904 file /hdd1/hdfs-data-storage2/current/BP-315463650-127.0.1.1-1615769866380/current/rbw/blk_1073943670
+2021-04-09 05:17:43,422 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-315463650-127.0.1.1-1615769866380 blk_1073943718_202952 file /hdd1/hdfs-data-storage2/current/BP-315463650-127.0.1.1-1615769866380/current/rbw/blk_1073943718
+2021-04-09 05:17:43,422 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-315463650-127.0.1.1-1615769866380 blk_1073943691_202925 file /hdd1/hdfs-data-storage2/current/BP-315463650-127.0.1.1-1615769866380/current/rbw/blk_1073943691
+2021-04-09 05:17:43,422 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-315463650-127.0.1.1-1615769866380 blk_1073943676_202910 file /hdd1/hdfs-data-storage2/current/BP-315463650-127.0.1.1-1615769866380/current/rbw/blk_1073943676
+2021-04-09 05:17:43,422 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-315463650-127.0.1.1-1615769866380 blk_1073943709_202943 file /hdd1/hdfs-data-storage2/current/BP-315463650-127.0.1.1-1615769866380/current/rbw/blk_1073943709

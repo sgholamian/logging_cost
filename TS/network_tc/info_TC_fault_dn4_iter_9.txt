@@ -1,0 +1,2 @@
+datanode styx04 starts here
+2021-04-09 09:12:08,203 INFO org.apache.hadoop.hdfs.server.datanode.DirectoryScanner: BlockPool BP-315463650-127.0.1.1-1615769866380 Total blocks: 1041, missing metadata files:0, missing block files:0, missing blocks in memory:0, mismatched blocks:0

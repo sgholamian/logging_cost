@@ -1,0 +1,15 @@
+namenode starts here
+2021-04-09 08:51:47,101 INFO org.apache.hadoop.hdfs.server.namenode.FileJournalManager: Purging logs older than 395241
+2021-04-09 09:51:47,260 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.210.11
+2021-04-09 09:51:47,260 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Rolling edit logs
+2021-04-09 09:51:47,260 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Ending log segment 1395243, 1395243
+2021-04-09 09:51:47,261 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 2 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 2 SyncTimes(ms): 6 
+2021-04-09 09:51:47,666 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 2 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 3 SyncTimes(ms): 412 
+2021-04-09 09:51:47,680 INFO org.apache.hadoop.hdfs.server.namenode.FileJournalManager: Finalizing edits file /hdd1/hdfs-name-storage2/current/edits_inprogress_0000000000001395243 -> /hdd1/hdfs-name-storage2/current/edits_0000000000001395243-0000000000001395244
+2021-04-09 09:51:47,689 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Starting log segment at 1395245
+2021-04-09 09:51:47,773 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Sending fileName: /hdd1/hdfs-name-storage2/current/edits_0000000000001395243-0000000000001395244, fileSize: 42. Sent total: 42 bytes. Size of last segment intended to send: -1 bytes.
+2021-04-09 09:51:47,824 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Combined time for fsimage download and fsync to all disks took 0.00s. The fsimage download took 0.00s at 50000.00 KB/s. Synchronous (fsync) write to disk of /hdd1/hdfs-name-storage2/current/fsimage.ckpt_0000000000001395244 took 0.00s.
+2021-04-09 09:51:47,824 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Downloaded file fsimage.ckpt_0000000000001395244 size 52008 bytes.
+2021-04-09 09:51:47,835 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Going to retain 2 images with txid >= 1395242
+2021-04-09 09:51:47,835 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Purging old image FSImageFile(file=/hdd1/hdfs-name-storage2/current/fsimage_0000000000001395240, cpktTxId=0000000000001395240)
+2021-04-09 09:51:47,857 INFO org.apache.hadoop.hdfs.server.namenode.FileJournalManager: Purging logs older than 395243
