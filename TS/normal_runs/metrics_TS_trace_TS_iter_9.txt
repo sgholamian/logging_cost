@@ -1,0 +1,2 @@
+9020:Total run-time was: 393170
+5306621	/home/sgholamian/Desktop/spark-2.4.4-bin-hadoop2.7/work/app-20210329225624-1043

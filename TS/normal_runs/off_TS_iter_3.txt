@@ -1,0 +1,4 @@
+21/03/29 21:47:37 WARN Utils: Your hostname, styx01 resolves to a loopback address: 127.0.1.1; using 192.168.210.11 instead (on interface bond0)
+21/03/29 21:47:37 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+21/03/29 21:47:37 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Total run-time was: 34211
